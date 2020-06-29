@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% extends "basic_app_tn/base.html" %}
+
+  {% block body_block %}
+
+    <h1>WELCOME to index</h1>
+
+    <h1>
+    {{ text|cut:'hell' }}
+      <br>
+    {{ number|add:"34" }}
+  </h1>
+
+  {% endblock %}
+
+</html>
